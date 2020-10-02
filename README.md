@@ -1,2 +1,8 @@
 # EndlessEvil
- A roguelike game
+这是一款才起步的独立开发roguelike游戏，在课余时间希望成长一下。
+
+以打怪物爆道具加属性加特效为基础，无尽关卡为游玩点。
+
+ 9/30 开始做的roguelike游戏。
+ 10/2 完成了随机地图生成部分。
+ 10/3 tilemap和随机地图部分完成。
