@@ -81,25 +81,27 @@
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Shell.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\SosButton.cs" />
     <Compile Include="Assets\HeroEditor\Common\ExampleScripts\SortingOrderExample.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\NavigateButton.cs" />
     <Compile Include="Assets\HeroEditor\Common\Data\FirearmParams.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\CharacterFlip.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\FirearmReload.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\FirearmCollection.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
     <Compile Include="Assets\HeroEditor\Common\Enums\MagazineType.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\CharacterBodySculptor.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\BowShooting.cs" />
     <Compile Include="Assets\HeroEditor\Common\Enums\FirearmLoadType.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\MeleeWeapon.cs" />
+    <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\Room.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Character.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\WeaponControls.cs" />
     <Compile Include="Assets\HeroEditor\Common\CommonScripts\Springs\ScaleSpring.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
-    <Compile Include="Assets\Script\CameraController.cs" />
+    <Compile Include="Assets\Script\WallMap.cs" />
+    <Compile Include="Assets\Script\MiniMapController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\HeroEditor\Common\Shaders\GrayPaint.shader" />

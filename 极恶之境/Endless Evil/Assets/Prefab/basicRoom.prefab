@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3885796235635310308}
   - component: {fileID: 6914540791045537033}
   - component: {fileID: 7568279558482301318}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: basicRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.06130171}
+  m_Offset: {x: 0.22149372, y: 0.061302423}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -116,7 +116,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3.1226034}
+  m_Size: {x: 15.514349, y: 7.109467}
   m_EdgeRadius: 0
 --- !u!50 &6914540791045537033
 Rigidbody2D:
@@ -3023,7 +3023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8872514563882091336}
   - component: {fileID: 2740232804353820108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RoomArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3057,7 +3057,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018582344, y: -0.0042381287}
+  m_Offset: {x: -0.046268463, y: -0.004235983}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3068,7 +3068,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.902952, y: 11.600422}
+  m_Size: {x: 17.84758, y: 10.049976}
   m_EdgeRadius: 0
 --- !u!1 &6438721680996454126
 GameObject:
