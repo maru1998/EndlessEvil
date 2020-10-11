@@ -24,7 +24,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             _controller = GetComponent<CharacterController>();
         }
  
-        public void Update()
+       /* public void Update()
         {
             Move(Input.GetKey(LeftButton), Input.GetKey(RightButton), Input.GetKey(JumpButton));
         }
@@ -46,7 +46,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
             _speed.y -= 25 * Time.deltaTime; // Depends on project physics settings
             _controller.Move(_speed * Time.deltaTime);
-        }
+        }*/
 
         public void Turn(float direction)
         {

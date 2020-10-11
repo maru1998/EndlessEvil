@@ -58,6 +58,7 @@
     <Compile Include="Assets\HeroEditor\Common\Editor\FirearmCollectionEditor.cs" />
     <Compile Include="Assets\HeroEditor\Common\Editor\LayerManagerEditor.cs" />
     <Compile Include="Assets\HeroEditor\Common\Editor\SpriteCollectionEditor.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\Editor\LayerManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\HeroEditor\Common\Editor\HeroEditor.Common.Editor.dll" />

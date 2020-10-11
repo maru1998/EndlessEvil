@@ -145,34 +145,7 @@ namespace Assets.HeroEditor.Common.EditorScripts
 
         #endif
 
-        /// <summary>
-        /// Test character with demo setup.
-        /// </summary>
-        public void Test()
-        {
-            #if UNITY_EDITOR
-
-            if (UnityEditor.EditorBuildSettings.scenes.All(i => !i.path.Contains(TestRoomSceneName)))
-            {
-	            UnityEditor.EditorUtility.DisplayDialog("Hero Editor", string.Format("Please add '{0}.scene' to Build Settings!", TestRoomSceneName), "OK");
-				return;
-            }
-
-            #endif
-
-            var controller = Character.gameObject.AddComponent<CharacterController>();
-
-            controller.center = new Vector3(0, 1.125f);
-            controller.height = 2.5f;
-	        controller.radius = 0.75f;
-            Character.GetComponent<WeaponControls>().enabled = true;
-            Character.gameObject.AddComponent<CharacterControl>();
-            DontDestroyOnLoad(Character);
-            _temp = Character as Character;
-            SceneManager.LoadScene(TestRoomSceneName);
-
-	        //FeatureTip();
-		}
+      
 
 		protected override void SetFirearmParams(SpriteGroupEntry entry)
         {
