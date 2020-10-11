@@ -68,6 +68,7 @@
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\AnimationEvents.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Firearm.cs" />
     <Compile Include="Assets\HeroEditor\Common\ExampleScripts\PlayingAnimations.cs" />
+    <Compile Include="Assets\Script\MiniMapController.cs" />
     <Compile Include="Assets\HeroEditor\Common\Enums\FirearmType.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Projectile.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\CharacterSerializerExperimental.cs" />
@@ -81,14 +82,12 @@
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Shell.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\SosButton.cs" />
     <Compile Include="Assets\HeroEditor\Common\ExampleScripts\SortingOrderExample.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\NavigateButton.cs" />
     <Compile Include="Assets\HeroEditor\Common\Data\FirearmParams.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\CharacterFlip.cs" />
+    <Compile Include="Assets\Script\WallMap.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\FirearmReload.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\FirearmCollection.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
     <Compile Include="Assets\HeroEditor\Common\Enums\MagazineType.cs" />
     <Compile Include="Assets\HeroEditor\Common\EditorScripts\CharacterBodySculptor.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\BowShooting.cs" />
@@ -96,18 +95,28 @@
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\MeleeWeapon.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\Room.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Character.cs" />
     <Compile Include="Assets\HeroEditor\Common\CharacterScripts\WeaponControls.cs" />
     <Compile Include="Assets\HeroEditor\Common\CommonScripts\Springs\ScaleSpring.cs" />
-    <Compile Include="Assets\Script\WallMap.cs" />
-    <Compile Include="Assets\Script\MiniMapController.cs" />
+    <Compile Include="Assets\Script\Character Script\CharacterController.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\Monster.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\Tweens\ScaleSpring.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\MonsterVariation.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\AnchorManager.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\SoloState.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\CustomGrid.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\LayerManager.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\Inanimate.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\Demo.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\Tweens\TweenBase.cs" />
+    <Compile Include="Assets\FantasyMonsters\Scripts\MonsterState.cs" />
+    <Compile Include="Assets\Script\Character Script\WeapenHit.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\HeroEditor\Common\Shaders\GrayPaint.shader" />
      <None Include="Assets\HeroEditor\FantasyHeroes\TestRoom\BackgroundLicense.txt" />
      <None Include="Assets\HeroEditor\Common\HeroEditor.Common.dll" />
-     <None Include="Assets\Hero Knight - Pixel Art\ColorSwap\Sprites-ColorSwap.shader" />
     <Reference Include="UnityEngine">
       <HintPath>G:\unity edit\2020.1.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
